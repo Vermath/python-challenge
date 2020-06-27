@@ -8,7 +8,7 @@ candidate_percentages ={}
 winner_votes = 0
 winner = ""
 
-filepath = r"C:\Users\TreyG\Desktop\python-challenge\PyPoll\Resources"
+filepath = r"C:\Users\TreyG\Desktop\python-challenge\PyPoll\Resources\election_data.csv"
 with open(filepath,'r', newline="") as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
 
